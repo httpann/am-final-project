@@ -98,13 +98,16 @@ h2 {
     justify-content:center;
     flex-wrap:nowrap;
     margin-bottom:100px;
+    margin-right:10vh;
+    margin-left:10vh
 }
 .card {
     background:rgb(160, 158, 158);
     width:600px;
     height:670px;
-    margin:25px;
+    margin:10px;
     border: 2px dotted black;
+    margin-top:5vh;
 }
 .image {
     width:430px;
