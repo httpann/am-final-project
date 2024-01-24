@@ -9,6 +9,10 @@ body {
         min-height:100vh;
         overflow-x:hidden;
         overflow-y:hidden;
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
 }
     
 .contact-info {
@@ -19,7 +23,6 @@ body {
 }
 .header {
     display:flex;
-    font-family:'Arial Narrow';
     font-size: 50px;
 }
 .merch {
@@ -27,7 +30,6 @@ body {
     display:flex;
     text-decoration:none;
     color:rgb(67, 67, 67);
-    font-family: 'Arial Narrow';
     width: fit-content;
 }
 .merch:hover {
@@ -84,7 +86,6 @@ body {
     display:flex;
     text-decoration:none;
     color:rgb(67, 67, 67);
-    font-family: 'Arial Narrow';
     width: fit-content;
     margin-left: 5vh;
 }
@@ -92,7 +93,6 @@ body {
     display:flex;
     text-decoration:none;
     color:rgb(67, 67, 67);
-    font-family: 'Arial Narrow';
     width: fit-content;
     margin-left: 5vh;
 }
