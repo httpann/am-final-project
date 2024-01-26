@@ -1,3 +1,32 @@
+@media (min-width: 1200px) {
+    h1 {
+      font-size: 4rem;
+    }
+}
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+}
+    .right {
+      width: 100%;
+    } }
+@media screen and (min-width: 80rem) {
+        .container {
+          margin: 1em 2em;
+        }
+      }
+      @media only screen and (max-width:500px) {
+        /* For mobile phones: */
+        .menu, .main, .right {
+          width: 100%;
+    }
+} 
+html {
+    overflow-x:hidden;
+
+  }
 body {
     background: rgb(196,190,200);
     background: linear-gradient(90deg, rgba(196,190,200,1) 0%, rgba(210,210,212,1) 50%, rgba(75,75,75,1) 100%);
@@ -8,8 +37,6 @@ body {
     box-sizing:border-box;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
 }
 * {
     margin:0;
@@ -32,6 +59,7 @@ body {
 h1 {
     font-family:"Raleway", sans-serif;
     color:rgb(0, 0, 0);
+    font-size:30px;
 }
 .logo {
     width:160px;
@@ -93,6 +121,10 @@ ul li {
     list-style:none;
     margin-top:5px;
     margin-left:2px;
+    margin-left:10px;
+}
+.smallcard h1 {
+    margin-left:10px;
 }
 .smallcard {
     background-color:rgb(160, 160, 160);
@@ -107,7 +139,6 @@ ul li {
     display:flex;
     justify-content:center;
     flex-wrap:nowrap;
-
 }
 .poster {
     height:700px;
@@ -188,54 +219,4 @@ ul {
 .footer-col .social-links a:hover {
     color:gray;
     background-color:white;
-}
-@media(max-width:767px) {
-    .footer-col {
-        width:50%;
-        margin-bottom:30px;
-    }
-}
-@media(max-width:564px) {
-    .footer-col {
-        width:100%;
-    }
-}
-@media (max-width:767px) {
-    .header h1 {
-        font-size:25px;
-        margin-left:-5vh;
-    }
-    .logo {
-        margin-left:3vh;
-    }
-    nav a {
-        display:inline-flex;
-        margin:1vh;
-        margin-left:4vh;
-    }
-        .poster {
-            margin-top:30vh;
-            width:400px;
-            height:340px;
-            display:block;
-        }
-        .bigcard {
-            width:450px;
-            height:380px;
-        }
-    .container {
-        display:block;
-    }
-    .card {
-        height:fit-content;
-        width:400px;
-    }
-    .image {
-        width:400px;
-        margin-left:-2px;
-    }
-    .small-container {
-        display:block;
-    }
-
 }
